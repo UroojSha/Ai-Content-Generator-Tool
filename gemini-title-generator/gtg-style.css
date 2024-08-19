@@ -1,0 +1,122 @@
+/* General Container Styles */
+.gtg-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Input and Button Styles */
+#gtg-input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+#gtg-input:focus {
+    border-color: #999;
+    outline: none;
+}
+
+#gtg-generate-button {
+    width: 95%;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+#gtg-generate-button:hover {
+    background: #0056b3;
+}
+
+/* Result List Styles */
+#gtg-title-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.gtg-result-item {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gtg-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.gtg-result-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Copy Button Styles */
+.gtg-copy-button {
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+    min-width: 36px; /* Ensure button is square */
+    width: 36px; /* Ensure button is square */
+}
+
+.gtg-copy-button:hover {
+    background: #0056b3;
+}
+
+.gtg-copy-button i {
+    font-size: 18px; /* Adjust icon size */
+}
+
+/* Loader and Error Styles */
+#gtg-image-container {
+    margin-top: 20px;
+}
+
+.gtg-start-image, .gtg-loading-image, .gtg-error-image {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.gtg-hidden {
+    display: none;
+}
+
+.gtg-loading-image {
+    width: 40px;
+    height: 40px;
+}
+
+.gtg-error-image {
+    width: 50px;
+    height: 50px;
+}
