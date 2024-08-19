@@ -45,7 +45,7 @@ function gtg_generate_titles() {
     check_ajax_referer('gtg_nonce', 'security');
 
     $input = sanitize_text_field($_POST['input']);
-    $api_key = 'AIzaSyBPAFG69SyFnkMZz_dImgxn25nU2W-lOss'; // Your API Key
+    $api_key = 'your-Api-key'; // Your API Key
     $api_url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=' . $api_key;
 
     $headers = [
